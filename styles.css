@@ -25,7 +25,7 @@ header {
 
 main{
   text-align: center;
-  margin-bottom: 10em;
+  margin-bottom: 1em;
 
 }
 
@@ -79,17 +79,19 @@ h1 {
 
 #projects{
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1em;
 }
 
 .project {
-  width: 50%;
+  width: 80%;
   height: auto;
   font-size: 12px;
   margin: 0 auto;
   position: relative;
   display: inline-block;
   overflow: hidden;
+  padding: 3em;
 
 }
 
@@ -146,15 +148,12 @@ h1 {
     opacity: 0.8; 
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
+.contact-sec{
+  position: relative;
   width: 100%;
-  background: linear-gradient(to top, #0a192f, #020c1b);
-  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
   color: #fff;
-  padding: 20px;
   text-align: center;
+  padding-top: 5em;
 }
 
 .contact{
@@ -182,4 +181,15 @@ footer {
 .contact a:hover{
   color: rgb(146, 193, 253);
 }
+
+footer {
+  width: 100%;
+  background: linear-gradient(to top, #0a192f, #020c1b);
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+
 
