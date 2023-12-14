@@ -203,7 +203,7 @@ footer {
 
   h1 {
     font-size: 1em;
-    padding-top: 2em;
+    padding-top: 4em;
   }
 
   .about-p {
@@ -231,7 +231,7 @@ footer {
   }
 
   footer {
-    padding: 0.5em;
+    padding-top: 0.5em;
     width: 100%;
   }
 }
