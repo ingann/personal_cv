@@ -1,7 +1,7 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: monospace, sans-serif;
   background-image: url('assets/background.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -53,7 +53,7 @@ main {
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -76,9 +76,12 @@ h1 {
 }
 
 .project {
-  border: 1px solid #ccc;
-  padding: 10px;
+  border: none;
   margin-bottom: 20px;
+  max-width: 25vw;
+  max-height: 25vh;
+  font-size: 12px;
+
 }
 
 #project-header {
@@ -97,6 +100,26 @@ h1 {
 
 .project a:hover {
   background-color: #555;
+}
+
+.project img {
+  max-width: 25vw;
+  height: auto;
+}
+
+.project-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  display: none;
+  text-decoration: none;
+}
+
+.project a:hover .project-link {
+  display: block;
 }
 
 footer {
