@@ -194,6 +194,7 @@ footer {
 @media (max-width: 768px) {
   header {
     padding: 1em;
+    width: 100%;
   }
 
   .main-nav li {
@@ -206,7 +207,7 @@ footer {
   }
 
   .about-p {
-    font-size: 10px;
+    font-size: 0.5em;
   }
 
   #projects {
