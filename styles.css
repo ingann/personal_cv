@@ -197,16 +197,16 @@ footer {
   }
 
   .main-nav li {
-    margin-right: 5em;
+    margin-right: 1em;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     padding-top: 2em;
   }
 
   .about-p {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   #projects {
@@ -231,5 +231,6 @@ footer {
 
   footer {
     padding: 0.5em;
+    width: 100%;
   }
 }
